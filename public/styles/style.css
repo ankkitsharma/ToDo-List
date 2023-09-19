@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital@1&display=swap');
+
+body {
+    background-color: #5C6BC0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #283593;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #303F9F;
+  }
+
+
+.material-symbols-outlined {
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    color: white;
+
+}
+
+#table {
+  background-color: #8791dd;
+  border-radius: 4px;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.item {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  border-bottom: 1px solid rgb(127, 127, 207);
+  font-size: 20px;
+}
+
+input[type="text"] {
+  text-align: center;
+  border: none;
+  width: 313px;
+  background-color: transparent ;
+  font-size: 1rem;
+  color: white;
+}
+
+input::placeholder {
+  font-size: 1rem;
+  color: rgb(116, 116, 202);
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #283593;
+  color: #fff;
+  border-width: 0;
+  font-size: 30px;
+}
+
+#heading {
+  text-align: center;
+  background-color: #283593;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  color: rgb(199, 220, 240);
+  font-size: 16px;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+#logo {
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+a:hover {
+  color: #b9a3f3;
+}
+
+button:hover {
+  background-color: #4954a7;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+
